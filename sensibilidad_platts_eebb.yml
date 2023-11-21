@@ -1,0 +1,12 @@
+---
+product_id: sensibilidad_platts_eebb
+alias: "sensibilidad platts eebb"
+description: índice de sensibilidad platts para estaciones blancas, que indica como prever la cotización futura de sus materias primas 
+type: dataset 
+subtype: fact
+business: products/sensibilidad_platts_eebb/business.yml 
+outputs: 
+  - products/sensibilidad_platts_eebb/contract.yml 
+inputs: 
+  - products/sensibilidad_platts_eebb/contract-aux.1.yml        
+pipeline: products/sensibilidad_platts_eebb/pipeline.yml 
